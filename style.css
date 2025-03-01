@@ -1625,6 +1625,7 @@ h2 {
     gap: 1rem;
     margin-top: 35rem;
     height: 100%;
+    padding-inline: 2rem;
     
 }
 
@@ -1678,45 +1679,198 @@ h2 {
 .courses-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* gap: 1rem; */
     margin-top: 2rem;
     width: 100%;
-    height: auto;
+    height: 100%;
+    position: relative;
+    padding-bottom: 50rem;
+    gap: 2rem;
     
 }
 
-.list-courses{
+/* .list-courses{
     display: flex;
     flex-direction: row;
-    gap: 1rem;
-    padding: 1rem;
+    gap: 10rem;
+    padding: 10rem;
     width: 100%;
     height: 100%;
+    position: relative;
+    margin-bottom: 5rem;
 
-}
+} */
+
+
 .course-1{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 100%;
-    padding: 1rem;  
-    height: 100%;
-   
+    width:100%;
+    height: 490px;
+    position: relative;
+    cursor: pointer;
+    border: 2px solid hsla(236,5%,25%,1);
+    border-radius:0.5rem;
+    transition: 0.5s ease-in;
+    
 }
+.course-1:hover{
+
+    
+    background-color: #4a8c641a;
+}
+
 
 .course-img {
     display: flex;
     flex-direction: column;
-    border: 1px solid hsla(236,5%,25%,1);
-    border-radius: 0.5rem;
     position: relative;
     width: 100%;
-
-
+    height: 100%;
+    cursor: pointer;
 }
+
 
 .course-img img{
     width: 100%;
     height: 100%;
+    /* width: 420.4px;
+    height: 259px; */
+    border-radius: 0.4rem;
+    cursor: pointer;
+    /* filter: brightness(90%); */
+ 
+}
+
+.course-img h1{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    line-height: 2.3rem;
+    margin-bottom: 1rem;
+    padding-inline: 1.5rem;
+    text-wrap: nowrap;
+}
+
+.course-img h1:hover{
+    color: #3d664f;
+    font-size: 3rem;
+}
+
+.course-img p{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    padding-inline: 1.5rem;
+}
+
+.course-img-abdolute1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 10px; 
+    right: 20px;
+    bottom: 10;
+    left: 20px;
+}
+
+.course-img-abdolute1 h1{
+    font-size: 0.7765rem;
+    color: #f2f2f2;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    background-color: #25292a;
+    border-radius: 3rem;
+    border-radius: 7rem;
+}
+
+.course-img-abdolute2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0px; 
+    right: 20px;
+    bottom: 3.5rem;
+    left: 4px;
+}
+
+.hours{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hours img{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.3rem;
+}
+
+.img-s img{
+    width: 2.5rem;
+    height: 2.5rem;
+   
+}
+
+.hours h1{
+    font-size: 0.7765rem;
+    color: #f2f2f2;
+    margin-left: -0.5rem;
     
+}
+
+.img-s{
+    margin-top: 0.5rem;
+}
+.img-s h1{
+    font-size: 1rem;
+    margin-right: 0.2rem;
+}
+
+.avator-teachers{
+    display: flex;
+    flex-direction: row;
+    padding-inline: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.avator--1{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.avator--1 img{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+
+.avator--1 h1{
+    font-size: 0.8765rem;
+}
+
+.sale-price{
+    display: flex;
+    flex-direction:column;
+    gap: 0.5rem;
+}
+
+.sale-price :nth-of-type(1){
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+.sale-price :nth-of-type(2){
+   
+    font-size: 1rem;
 }
