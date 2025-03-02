@@ -1624,6 +1624,8 @@ h2 {
     flex-direction: column;
     gap: 1rem;
     margin-top: 35rem;
+    
+    height: 100%;
     height: 100%;
     padding-inline: 2rem;
     
@@ -1680,7 +1682,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 2rem;
-    width: 100%;
+    width:100%;
     height: 100%;
     position: relative;
     padding-bottom: 50rem;
@@ -1715,8 +1717,8 @@ h2 {
     
 }
 .course-1:hover{
-
-    
+    transform: scale(1.2);
+    transition: 0.5s ease-in;
     background-color: #4a8c641a;
 }
 
@@ -1738,8 +1740,7 @@ h2 {
     height: 259px; */
     border-radius: 0.4rem;
     cursor: pointer;
-    /* filter: brightness(90%); */
- 
+    filter: brightness(80%);
 }
 
 .course-img h1{
@@ -1838,7 +1839,8 @@ h2 {
     padding-inline: 1rem;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .avator--1{
@@ -1873,4 +1875,244 @@ h2 {
 .sale-price :nth-of-type(2){
    
     font-size: 1rem;
+}
+
+.last-section--{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50rem;
+    
+}
+
+.last-button-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin-inline: 20rem;
+    border-radius:0.4rem;
+    padding: 0.5rem 2rem;
+    background-color: #4a8c64;
+    position: relative;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.last-button-2 h1{
+    font-size: 1rem;
+}
+
+.last-button-2 img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80rem;
+ 
+}
+.margin-lastbutton{
+    margin-top: 10rem;
+}
+.margin-lastbutton span{
+    font-size: 3.75rem;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.blogslists{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+    width: 100%;
+    height: 100%;
+}
+
+.blog--1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #333333;
+    border-radius: 0.5rem;
+    margin-bottom: 4rem;
+    padding-bottom: 1rem;
+
+}
+
+.blog--1:hover{
+    background-color: #4a8c641a;
+}
+
+.blog--1 img{
+    width: 425px;
+    height: 300px;
+    border-radius: 0.5rem;
+}
+
+.blog--1 img:hover{
+    transform: scale(1.);
+    transition: 0.5s ease-in;
+    background-color: #4a8c641a;
+}
+
+.blog--1 h1{
+    font-size: 1.125rem;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    padding-inline: 1rem;
+    
+}
+
+.blog--1 p{
+    font-size: 0.8765rem;
+    margin-top: 0.5rem;
+    line-height: 1.5rem;
+    padding-inline: 1rem;
+}
+
+.line-avator-img{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+     align-items: center;
+    gap: 0.5rem;
+}
+
+.line-avator-img img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+}
+
+.abdrizak-4min{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.5rem;
+    margin-left: -5.5rem;
+}
+.hi4min img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+    margin-left: -1rem;
+   
+}
+
+
+.hi4min{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.hi4min{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hi4min1{
+    /* margin-left: -8.7rem; */
+    margin-top: -1.5rem;
+}
+.hi4min h1{
+    font-size: 0.75rem;
+}
+.hi4min1 h1{
+    font-size: 0.75rem;
+    margin-left: -1rem;
+}
+
+.hi4min1 img{
+    margin-left: -2.5rem;
+}
+
+.readin-somali{
+    display: flex;
+    /* gap: 0.5rem; */
+}
+
+.readin-somali img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+    margin-left: -1rem;
+}
+
+.readin-somali h1{
+    font-size: 0.75rem;
+    color: #4a8c64;
+}
+
+
+.blog-lastmrg{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+
+.succeses-1{
+    gap: 0rem;
+}
+.succeses-1 span{
+    font-size: 2.5rem;
+    margin-bottom: -1rem;
+}
+.succeses{
+    display: flex;
+    flex-direction: column;
+}
+
+.succeses-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    background-color: #29292e;
+    padding: 4rem;
+    border-radius: 1rem;
+    width: 70%;
+    margin-inline: 15rem;
+    margin-bottom: 5rem;
+}
+
+
+.s-counter1{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-counter1 img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+
+.s-counter1 :nth-of-type(1){
+    font-size: 1.95rem;
+}
+
+.s-counter1 :nth-of-type(2){
+    font-size: 0.8765rem;
 }
