@@ -2386,3 +2386,170 @@ h2 {
     background-color: #4a8c64;
 }
 
+.second-footer{
+    cursor: pointer;
+    line-height: 2rem;
+
+}
+.second-footer span{
+    font-size: 1.125rem;
+    font-weight: 700;
+
+}
+
+.second-footer h1{
+    font-size: 1rem;
+    font-weight: 500;
+  
+
+}
+
+.second-footer h1:hover{
+    text-decoration: underline;
+    color: #4a8c64;
+   
+}
+
+.second-fullstack1{
+    display: flex;
+    flex-direction: column;
+    background-color: #4a8c641a;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.second-fullstack1 p{
+    font-size: 0.8765rem;
+    line-height: 1.5rem;
+}
+.second-fullstack{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+ 
+}
+
+.second-fullstack span{
+    font-size: 1rem;
+
+}
+
+
+.second-fullstack img{
+    width: 2rem;
+    height: 2rem;
+    background-color: #005522;
+    border-radius: 0.5rem;
+}
+
+
+.learn-secondbtn{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.learn-secondbtn h1{
+    font-size: 0.8765rem;
+    color: #488761;
+}
+
+.learn-secondbtn img{
+    width: 1rem;
+    height: 1rem;
+    background-color: #488761;
+    border-radius: 0.1rem;
+}
+
+
+.third-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#th-span{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+#th-span1{
+    font-size: 0.8765rem;
+}
+.user-12hour{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.user-12hour h1{
+    font-size: 0.75rem;
+}
+.user-12hour img{
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.view-all{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    cursor: pointer;
+}
+.view-all h1{
+    font-size: 1.125rem;
+    color: #4a8c64;
+}
+
+.view-all img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.resource{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.resource span{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.resource h1{
+    font-size: 0.8765rem;
+}
+
+.yeb{
+    gap: 1rem;
+    line-height: 1.5rem;
+}
+
+.last-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.last-footer span{
+    font-size: 0.8765rem;
+}
+
+.word-pr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+
+}
+
+.word-pr h1{
+    font-size: 0.8765rem;
+}
+
+.word-pr img{
+    width: 1.5em;
+    height: 1.5rem;
+}
